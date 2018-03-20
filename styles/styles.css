@@ -1,0 +1,123 @@
+html{
+	font-family: Arial, sans-serif;
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -60px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	opacity: 0.75;
+	margin-left: 15px;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul li {
+	display: inline;
+}
+
+header {
+	height: 60px;
+}
+
+.nav-left {
+	float: left;
+	position: relative;
+	margin-left: 15px;
+}
+
+.nav-right {
+	float: right;
+	position: relative;
+	margin-right: 30px;
+}
+
+header .nav-left, header .nav-right {
+	margin-top: 21px;
+}
+
+#logo {
+	margin-top: 50px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+}
+
+form {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+}
+
+#search-bar-and-mic {
+	width: 100%;
+	height: 45px;
+	margin: 15px 0px 30px;
+	border: 1px solid rgb(209, 209, 209);
+	border-radius: 3px;
+	box-shadow: 0px 2px rgba(169, 169, 169, 0.3);
+}
+
+input[name="search-bar"] {
+	width: 90%;
+	height: 20px;
+	margin: 12px 0 5px 10px;
+	border: none;
+	font-size: 16px;
+}
+
+input[name="search-bar"]:focus {
+	outline: 0;
+}
+
+input [value="Mic"] {
+	width: 10%;
+}
+
+#form-buttons {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+#form-buttons input {
+	background: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 3px;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #757575;
+	margin: 0px 2px;
+}
+
+#form-buttons input:hover {
+	border: 1px solid rgb(209, 209, 209);
+	color: black;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background: #F2F2F2;
+	border-top: 1px solid #E4E4E4;
+}
+
+footer .nav-left, footer .nav-right {
+	margin-top: 11px;
+}
+
+
