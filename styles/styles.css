@@ -20,6 +20,18 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.opaque {
+	opacity: 1;
+}
+
+img#notification {
+	height: 13px;
+	width: 13px;
+	padding: 5px;
+	border-radius: 100%;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
 ul li {
 	display: inline;
 }
@@ -42,13 +54,39 @@ header {
 
 header .nav-left, header .nav-right {
 	margin-top: 21px;
+	height: 24px;
+	line-height: 24px;
+}
+
+header .nav-right a img {
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+span.username {
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background: #1E88E5;
+	opacity: 1;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+span.username::before {
+	content: "T";
+	margin-left: 11px;
+	position: relative;
+	top: 4px;
+	color: white;
 }
 
 #logo {
 	margin-top: 50px;
 }
 
-img {
+#logo img {
 	display: block;
 	margin: 0 auto;
 	width: 40%;
